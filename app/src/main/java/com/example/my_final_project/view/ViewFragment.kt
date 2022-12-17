@@ -14,6 +14,7 @@ class ViewFragment : Fragment(R.layout.fragment_view) {
     companion object {
 
         @JvmStatic
+
         fun newInstance() =ViewFragment()
             }
     }

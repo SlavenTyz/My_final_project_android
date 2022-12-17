@@ -11,6 +11,7 @@ class AddFragment : Fragment(R.layout.fragment_add) {
 
     companion object {
 
+
         @JvmStatic
         fun newInstance() = AddFragment()
             }

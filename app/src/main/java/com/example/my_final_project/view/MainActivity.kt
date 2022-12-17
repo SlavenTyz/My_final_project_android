@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var addFragment: AddFragment
     private lateinit var viewFragment: ViewFragment
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
