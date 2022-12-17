@@ -11,7 +11,6 @@ import com.example.my_final_project.viewmodel.StateFragments
 class MainActivity : AppCompatActivity() {
 
     private val postViewModel: PostViewModel by viewModels()
-
     private lateinit var addFragment: AddFragment
     private lateinit var viewFragment: ViewFragment
 

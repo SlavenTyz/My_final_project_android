@@ -11,7 +11,6 @@ import com.example.my_final_project.model.database.Post
 
 class Adapter(val context: Context, var list: List<Post>) :
 
-
     RecyclerView.Adapter<Adapter.ViewHolder>() {
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val title: TextView = view.findViewById(R.id.titleText)

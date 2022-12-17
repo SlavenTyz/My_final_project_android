@@ -7,7 +7,6 @@ import com.google.gson.annotations.SerializedName
 @Entity
 data class Post(
 
-
     @PrimaryKey(autoGenerate = true)
     @SerializedName("id")
     val id: Int = 0,

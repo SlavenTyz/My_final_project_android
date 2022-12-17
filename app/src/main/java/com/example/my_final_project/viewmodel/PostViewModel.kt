@@ -66,7 +66,6 @@ class PostViewModel: ViewModel() {
         }
     }
 
-
     fun putPostToDb(post: Post,context: Context){
         viewModelScope.launch(Dispatchers.IO) {
             if (database == null) {
